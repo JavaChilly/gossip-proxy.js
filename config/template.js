@@ -10,6 +10,9 @@ module.exports = {
   // to log logger.debug messages or not
   'debug' : true,
 
+  // by default this will strip non ASCII, but you may not want that
+  'utf8' : false,
+
   // gossip init options
   'gossip' : {
     'client_id' : 'GRAPEVINE GAME CLIENT ID',
@@ -29,7 +32,7 @@ module.exports = {
   },
 
   'moo' : {
-    'name' : 'Sindome',   // this will be appended to the player's name (Johnny@Sindome) when communicating with the gossip network
+    'name' : 'Sindome',
     'host' : 'localhost',
     'port' : 5555,
     'secret' : 'MOO SHARED SECRET KEY',
