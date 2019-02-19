@@ -1,6 +1,8 @@
 # gossip-proxy.js
 
 Very rough http proxy for communicating with Grapevine from a MUD/MOO. Uses the `gossiphaus` NPM module to communicate with gossip and listens on an http port for commands from the MUD/MOO.
+_run with Node.js 8.x_
+
 
  1. `cp config/template.js config/<configname>.js`
 
