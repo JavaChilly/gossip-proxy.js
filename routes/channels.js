@@ -6,7 +6,7 @@ const logger = logging.named('routes/channels' );
 
 let router = express.Router();
 
-/* GET send a message to a channel */
+/* POST send a message to a channel */
 router.post('/send/', function( req, res, next ) {
   let { name, message, channel } = JSON.parse(req.body.payload);
   gossip.channels.send( name, channel, message ).then( result => {
