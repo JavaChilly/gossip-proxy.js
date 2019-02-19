@@ -23,6 +23,11 @@ module.exports = {
     'interval' : 90000
   },
 
+  'ban' : {
+    'path' : 'gossip-ban.txt',
+    'interval' : 45000
+  },
+
   'moo' : {
     'name' : 'Sindome',   // this will be appended to the player's name (Johnny@Sindome) when communicating with the gossip network
     'host' : 'localhost',
