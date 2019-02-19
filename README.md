@@ -12,7 +12,7 @@ _run with Node.js 8.x_
 
  1. `export NODE_ENV=<configname>`
 
- 1. `node gossip-proxy.js`
+ 1. `npm start`
  
  ----
  
